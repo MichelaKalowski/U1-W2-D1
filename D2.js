@@ -13,23 +13,40 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+// I principali datatype in Javascript sono:
+// Stringhe: Una stringa è una sequenza di uno o più caratteri (lettere, numeri, simboli). Le stringhe sono utili in quanto rappresentano dati testuali.
+// In JavaScript, le stringhe esistono tra virgolette singole o doppie.
+// Numeri: In JavaScript non esiste una designazione separata per numeri interi e numeri decimali. Questi ultimi si esprimono cono il punto.
+// Booleani: Il tipo di dati booleano può essere uno di due valori, vero o falso.
+// Undefined: viene impiegato per rappresentare il fatto che una variabile non è stata dichiarata. 
+// Null: viene impiegato per rappresentare il fatto che una variabile non è stata dichiarata.
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let name= "Michela";
+console.log(name);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let numero1 = 12;
+let numero2 = 20;
+console.log(numero1 + numero2);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
+ 
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA */ 
+var x = 12;
+console.log(x);
+
+
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
@@ -37,12 +54,16 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+name = "Michela";
+let cognome = "Kalowski";
+console.log(cognome);
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let numberfour = 4;
+console.log(x - numberfour);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -51,3 +72,6 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let name3 ="Jhon";
+let name2 ="jhon";
+console.log(name3 == name2);
