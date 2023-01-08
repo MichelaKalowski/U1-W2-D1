@@ -18,8 +18,8 @@ REGOLE
 // In JavaScript, le stringhe esistono tra virgolette singole o doppie.
 // Numeri: In JavaScript non esiste una designazione separata per numeri interi e numeri decimali. Questi ultimi si esprimono cono il punto.
 // Booleani: Il tipo di dati booleano può essere uno di due valori, vero o falso.
-// Undefined: viene impiegato per rappresentare il fatto che una variabile non è stata dichiarata. 
-// Null: viene impiegato per rappresentare il fatto che una variabile non è stata dichiarata.
+// Undefined: la variabile non ha un valore assegnato.
+// Null: indica una mancanza di identificazione.
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
@@ -43,7 +43,7 @@ console.log(numero1 + numero2);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */ 
-var x = 12;
+let x = 12;
 console.log(x);
 
 
@@ -74,4 +74,6 @@ console.log(x - numberfour);
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name3 ="Jhon";
 let name2 ="jhon";
-console.log(name3 == name2);
+console.log(name3 === name2);
+console.log(name2.toLowerCase() === name3.toLowerCase()
+)
